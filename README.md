@@ -1,7 +1,7 @@
 # Hangman Game
 ## Objective:
-Create a Python console application that simulates a Hangman Game.
-PS.: In this game there are only animals words.
+Create a Python console application that simulates a Hangman Game. <br>
+PS.: In this game there are only animals words. <br>
 You can choose "br" or "en" words.
 
 The hangman game is a game in which the player has to guess which word is proposed, having as a hint the number of letters. For each wrong letter, a part of the hanged man's body is drawn and, if the hanged man's body is completed, you lose. If you correctly fill all the letters of the word without completing the hanged body, you win.
