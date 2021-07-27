@@ -15,7 +15,7 @@ if language == "br":
   words_list = words.br_words_list
 else:
   words_list = words.en_words_list
-os.system('clear') or None
+os.system('cls')
 
 #Game loop. User will still playing while his answer is yes
 want_play = True
@@ -114,7 +114,7 @@ while want_play:
       end_of_the_game = True
 
     #Clear the console
-    os.system('clear') or None
+    os.system('cls')
 
     #Prints game logo, hanged man's body and the word to be completed
     print(ASCII.hangman)
@@ -146,4 +146,4 @@ while want_play:
   play = input('Do you still want to play? Type "yes" or "no".\n')
   if play == "no":
     want_play = False
-  os.system('clear') or None
+  os.system('cls')
